@@ -21,8 +21,8 @@
 
 
 -- Target Table
---		formated_date,	‘distance_to_travel’,	‘monetary_cost’,	calculated_distance_per_dollar,		request_status,		calculated_avg_distance_per_dollar_for_year_month by request_status,	abs(calculated_distance_per_dollar - calculated_avg_distance_per_dollar_for_year_month)
+--	request_date		formated_date,	‘distance_to_travel’,	‘monetary_cost’,	calculated_distance_per_dollar,		request_status,		calculated_avg_distance_per_dollar_for_year_month by request_status,	abs(calculated_distance_per_dollar - calculated_avg_distance_per_dollar_for_year_month)
 
---		2022-01,				3,						15,						5,								a,											10, 																			5
---		2022-01,				5,						35,						7,								a,											10,																				3
---		2022-02,				5,						50,						10,								b,											5,																				5
+--	2022-01-05,				2022-01,				3,						15,						5,								a,											10, 																			5
+--	2022-01-20,				2022-01,				5,						35,						7,								a,											10,																				3
+--	2022-02-05,				2022-02,				5,						50,						10,								b,											5,																				5
